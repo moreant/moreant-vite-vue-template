@@ -6,4 +6,3 @@
 - [x] Eslint  
 - [x] Prettier  
 - [x] Unplugin  
-- [x] Husky

@@ -10,8 +10,7 @@
     "tsc": "vue-tsc --noEmit",
     "eslint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "prettier": "prettier -w ./src/**/*.{ts,vue,css}",
-    "pre-commit": "pnpm prettier && pnpm eslint && pnpm tsc",
-    "prepare": "husky install"
+    "pre-commit": "pnpm prettier && pnpm eslint && pnpm tsc"
   },
   "dependencies": {
     "vue": "^3.2.45"
@@ -25,7 +24,6 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.8.0",
-    "husky": "^8.0.0",
     "prettier": "^2.8.1",
     "typescript": "^4.9.3",
     "unplugin-auto-import": "^0.12.1",
