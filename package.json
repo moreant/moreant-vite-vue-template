@@ -13,7 +13,7 @@
     "pre-commit": "pnpm prettier && pnpm eslint && pnpm tsc"
   },
   "dependencies": {
-    "vue": "^3.3.4"
+    "vue": "^3.3.9"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
